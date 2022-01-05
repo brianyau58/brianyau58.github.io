@@ -241,13 +241,20 @@ h3 {
 
 }
 
+#posterbox1{
+  position: absolute;
+  margin-left: 450px;
+}
+
+
+
 #poster1 {
   border: 1px solid rgb(221, 221, 221);
 	border-radius: 4px;
 	padding: 0px;
 	width: 500px;
 	float: right;    
-	margin-right: 300px;
+
 }
 
 #poster1back {
@@ -255,17 +262,10 @@ h3 {
 	border-radius: 4px;
 	padding: 0px;
 	width: 500px;
-	float: right;
-  margin-top: 500px;    
-  margin-left: 700px;
+	float: right; 
+
 }
 
-#poster1mockup {
-	padding: 5px;
-	width: 500px;
-	float: right;    
-	margin: 0 0 0 700px;
-}
 
 
 .space {
