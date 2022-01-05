@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;400;600&display=swap');
+@import "compass/css3";
+
+
+
+body{ margin: 0; padding: 0; }
+
+div.picture1 {
+   width:100%; 
+   height: 900px;
+   margin: 0;
+   padding: 0;
+   background-image:url('https://brianyau58.github.io/image/Web_coverV2.png');
+   position: relative; 
+	 background-position: center;
+	 background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+div.picture2 {
+   width:100%; 
+   height: 1800px;
+   margin: 0;
+   padding: 0;
+   background-image: url('https://brianyau58.github.io/image/skwedBG.png');
+   position: relative; 
+   background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+}
+
+div.picture3 {
+   width:100%; 
+   height: 1000px;
+   margin: 0;
+   padding: 0;
+   background-image: url('https://brianyau58.github.io/image/pacific\ coffee.png');
+   background-color:#ffffff;
+   position: relative; 
+   background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+}
+
+div.picture4 {
+   width:100%; 
+   height: 1000px;
+   margin: 0;
+   padding: 0;
+   background-image: url('https://brianyau58.github.io/image/starbucks.png');
+   background-color:#ffffff;
+   position: relative; 
+   background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+}
+
+
+#div1{
+  padding: 5px;
+  color: rgba(199, 194, 194, 0.904);
+  background-color:#020b2c;
+  width:100%;
+  height: 300px;
+}
+
+#div2 {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 50px;
+}
+
+#div3 {
+  margin: 0;
+  padding: 0;
+  position:absolute;
+  background-color:#7c2807;
+  width:100%;
+  height: 200px;
+}
+
+#div4 {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    background-color:#022c25;
+    width:100%;
+    height: 200px;
+  }
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Poppins", sans-serif;
+	color: rgb(255, 255, 255);
+}
+
+#p1 {
+  position: absolute;
+	font: 15px "Poppins", sans-serif;
+  color: rgba(199, 194, 194, 0.904);
+  text-align: center;
+  padding:50px 80px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+#p2 {
+  font-size: 20px;
+  color: rgba(199, 194, 194, 0.904);
+  text-align: left;
+  padding:200px 80px;
+}
+
+#p3 {
+  font-size: 20px;
+  color: rgba(199, 194, 194, 0.904);
+  text-align: left;
+  padding:300px 80px;
+}
+
+#p4 {
+  position: absolute;
+	font: 15px "Poppins", sans-serif;
+  color: rgba(199, 194, 194, 0.904);
+  text-align: center;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.caption {
+  margin: 0;
+  padding: 0;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	text-align: center;
+	color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+  
+#brandlogoText{
+  font-family: 'Crimson Pro', serif;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+  padding:50px 80px;
+}
+
+#text{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-left: 100px;
+
+}
+
+#text2{
+  position: absolute;
+  color: #022c25;
+  font-weight: 700;
+  font-size: 60px;
+  background: #ffffff;
+  line-height: 70px;
+  margin-left: 100px;
+
+}
+
+#text3{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 150px;
+  margin-left: 440px;
+
+}
+
+#rp1 {
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 4px;
+	padding: 5px;
+	width: 500px;
+	float: right;    
+	margin-right:100px;
+  margin-top: 300px;
+}
+
+#rp2 {
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 4px;
+	padding: 5px;
+	width: 500px;
+	float: left;    
+  margin-left:100px;
+	margin-top: 300px;
+}
+
+.space {
+	margin-top: 300px; 
+}
+
+.space2 {
+	margin-top: 250px; 
+}
+
+.space3 {
+	margin-top: 200px; 
+}
