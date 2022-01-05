@@ -268,7 +268,7 @@ h3 {
 }
 
 #posterbox1{
-  position: absolute;
+  position: static;
   padding: 50px 445px;
 }
 
