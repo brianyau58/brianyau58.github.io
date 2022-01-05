@@ -72,7 +72,7 @@ div.picture5 {
 
 div.picture6 {
   width:100%; 
-  height: 1000px;
+  height: 3000px;
   margin: 0;
   padding: 0;
   background-image: url('https://brianyau58.github.io/image/PosterPartBG.jpg');
@@ -248,8 +248,25 @@ h3 {
 	padding: 5px;
 	width: 500px;
 	float: right;    
-	margin: 0 0 0 1200px;
+	margin: 0 0 0 700px;
 }
+
+#poster1back {
+  border: 1px solid rgb(221, 221, 221);
+	border-radius: 4px;
+	padding: 5px;
+	width: 500px;
+	float: right;    
+	margin: 0 0 0 700px;
+}
+
+#poster1mockup {
+	padding: 5px;
+	width: 500px;
+	float: right;    
+	margin: 0 0 0 700px;
+}
+
 
 .space {
 	margin-top: 300px; 
