@@ -57,6 +57,19 @@ div.picture4 {
 	 background-repeat: no-repeat;
 }
 
+div.picture5 {
+  width:100%; 
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://brianyau58.github.io/image/BrewBros.png');
+  background-color:#ffffff;
+  position: relative; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 #div1{
   padding: 5px;
@@ -88,6 +101,15 @@ div.picture4 {
     width:100%;
     height: 200px;
   }
+
+#div5 {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    background-color:#020b2c;
+    width:100%;
+    height: 200px;
+}
 
 h3 {
 	letter-spacing: 5px;
