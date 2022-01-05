@@ -168,6 +168,15 @@ h3 {
   margin-right: auto; 
 }
 
+#p5 {
+  font-size: 20px;
+  color: rgba(199, 194, 194, 0.904);
+  text-align: center;
+  padding:300px 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .caption {
   margin: 0;
   padding: 0;
@@ -241,9 +250,17 @@ h3 {
 
 }
 
+#HWlogo {
+  position: relative;
+	width: 50%;
+  margin: 0px;
+	padding: 0px;
+
+}
+
 #posterbox1{
-  position: absolute;
-  margin-left: 450px;
+  position: relative;
+  padding: 50px 445px;
 }
 
 
