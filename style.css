@@ -172,7 +172,16 @@ h3 {
   font-size: 20px;
   color: rgba(199, 194, 194, 0.904);
   text-align: center;
-  padding:300px 80px;
+  padding:300px 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#p6 {
+  font-size: 20px;
+  color: rgba(199, 194, 194, 0.904);
+  text-align: center;
+  padding:10px 10px;
   margin-left: 100px;
   margin-right: 100px;
 }
