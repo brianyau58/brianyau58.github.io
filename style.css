@@ -252,18 +252,16 @@ h3 {
 
 #HWlogo {
   position: relative;
-	width: 50%;
+	width: 500px;
   margin: 0px;
 	padding: 0px;
 
 }
 
 #posterbox1{
-  position: relative;
+  position: absolute;
   padding: 50px 445px;
 }
-
-
 
 #poster1 {
   border: 1px solid rgb(221, 221, 221);
