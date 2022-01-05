@@ -72,11 +72,10 @@ div.picture5 {
 
 div.picture6 {
   width:100%; 
-  height: 3000px;
+  height: 1000px;
   margin: 0;
   padding: 0;
-  background-image: url('https://brianyau58.github.io/image/PosterPartBG.jpg');
-  background-color:#ffffff;
+  background-color:#000000;
   position: relative; 
   background-attachment: fixed;
   background-position: center;
@@ -180,6 +179,18 @@ h3 {
   font-family: "Poppins", sans-serif;
 }
 
+.caption2 {
+  margin: 0;
+  padding: 0;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	text-align: center;
+  background-color: #000000;
+	color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
 .caption span.border {
   background-color: #111;
   color: #fff;
@@ -222,42 +233,31 @@ h3 {
 
 }
 
-#rp1 {
-	border: 1px solid rgb(221, 221, 221);
-	border-radius: 4px;
-	padding: 5px;
-	width: 500px;
-	float: right;    
-	margin-right:100px;
-  margin-top: 300px;
-}
+#pdlogo {
+  position: relative;
+	width: 100%;
+  margin: 0px;
+	padding: 0px;
 
-#rp2 {
-	border: 1px solid rgb(221, 221, 221);
-	border-radius: 4px;
-	padding: 5px;
-	width: 500px;
-	float: left;    
-  margin-left:100px;
-	margin-top: 300px;
 }
 
 #poster1 {
   border: 1px solid rgb(221, 221, 221);
 	border-radius: 4px;
-	padding: 5px;
+	padding: 0px;
 	width: 500px;
 	float: right;    
-	margin: 0 0 0 700px;
+	margin-right: 300px;
 }
 
 #poster1back {
   border: 1px solid rgb(221, 221, 221);
 	border-radius: 4px;
-	padding: 5px;
+	padding: 0px;
 	width: 500px;
-	float: right;    
-	margin: 0 0 0 700px;
+	float: right;
+  margin-top: 500px;    
+  margin-left: 700px;
 }
 
 #poster1mockup {
