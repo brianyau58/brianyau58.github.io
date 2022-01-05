@@ -172,7 +172,7 @@ h3 {
   font-size: 20px;
   color: rgba(199, 194, 194, 0.904);
   text-align: center;
-  padding:300px 10px;
+
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -277,7 +277,7 @@ h3 {
 	border-radius: 4px;
 	padding: 0px;
 	width: 500px;
-	float: right;    
+ 
 
 }
 
@@ -302,4 +302,8 @@ h3 {
 
 .space3 {
 	margin-top: 200px; 
+}
+
+.space4 {
+	margin-top: 600px; 
 }
