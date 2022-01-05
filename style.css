@@ -70,6 +70,20 @@ div.picture5 {
   background-repeat: no-repeat;
 }
 
+div.picture6 {
+  width:100%; 
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://brianyau58.github.io/image/PosterPartBG.png');
+  background-color:#ffffff;
+  position: relative; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 
 #div1{
   padding: 5px;
