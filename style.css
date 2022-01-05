@@ -186,6 +186,15 @@ h3 {
   margin-right: 100px;
 }
 
+#p7 {
+  font-size: 100px;
+  color: rgba(199, 194, 194, 0.904);
+  text-align: center;
+  padding:10px 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .caption {
   margin: 0;
   padding: 0;
@@ -280,13 +289,22 @@ h3 {
   height: auto;
 }
 
-#poster1back {
+#poster2 {
   border: 1px solid rgb(221, 221, 221);
 	border-radius: 4px;
 	padding: 0px;
-	width: 100%;
+	width: 70%;
   height: auto;
 }
+
+
+#poster3 {
+	padding: 0px;
+	width: 50%;
+  height: auto;
+
+}
+
 
 
 
