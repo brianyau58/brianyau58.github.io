@@ -87,6 +87,18 @@ div.picture6 {
   background-repeat: no-repeat;
 }
 
+div.picture7 {
+  width:100%; 
+  height: 900px;
+  margin: 0;
+  padding: 0;
+  background-image:url('./image/PosterDesignLogo.png');
+  position: relative; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
 
 
 #div1{
