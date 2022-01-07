@@ -204,10 +204,10 @@ h3 {
 }
 
 #p2 {
-  font-size: 20px;
+  font-size: 17px;
   color: rgba(199, 194, 194, 0.904);
   text-align: left;
-  padding:200px 80px;
+  padding:100px 200px;
 }
 
 #p3 {
@@ -303,9 +303,9 @@ h3 {
 }
 
 #text{
-  position: absolute;
+  position: relative;
   color: rgb(255, 255, 255);
-  margin-left: 100px;
+  margin-right: 1460px;
 
 }
 
@@ -321,10 +321,10 @@ h3 {
 }
 
 #text3{
-  position: absolute;
+  position: relative;
   color: rgb(255, 255, 255);
-  margin-top: 150px;
-  margin-left: 440px;
+  margin-top: 70px;
+  margin-right: 970px;
 
 }
 
