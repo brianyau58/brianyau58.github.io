@@ -207,7 +207,7 @@ h3 {
   font-size: 17px;
   color: rgba(199, 194, 194, 0.904);
   text-align: left;
-  padding:100px 100px;
+  padding:200px 100px;
 }
 
 #p3 {
@@ -303,10 +303,10 @@ h3 {
 }
 
 #text{
-  position: absolute;
+  position: relative;
   color: rgb(255, 255, 255);
-  margin-right: 1460px;
-
+  text-align: left;
+  margin-left: 100px;
 }
 
 #text2{
@@ -321,11 +321,11 @@ h3 {
 }
 
 #text3{
-  position: relative;
+  position: absolute;
   color: rgb(255, 255, 255);
   margin-top: 70px;
-  margin-right: 970px;
-
+  text-align: left;
+  margin-left: 100px;
 }
 
 #pdlogo {
