@@ -93,12 +93,12 @@ div.picture7 {
   height: 1000px;
   margin: 0;
   padding: 0;
-  background-color:#202e41;
+  background-color:#202841;
   background-image:url('./image/PosterDesignLogo.png');
   position: relative; 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
 }
 
@@ -163,7 +163,7 @@ div.picture7 {
   margin: 0;
   padding: 0;
   position:relative;
-  background-color:#202e41;
+  background-color:#203f41;
   width:100%;
   height: 3500px;
 	text-align: center;
@@ -703,4 +703,114 @@ aside {
 
 aside p {
 	margin-bottom: 1em;
+}
+
+
+
+
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  font-size: 2em;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #000000;
+}
+.css-typing p:nth-child(1) {
+  width: 24ch;
+  -webkit-animation:type2 2s steps(60), blink .5s step-end infinite alternate;
+  animation: type2 2s steps(60), blink .5s step-end infinite alternate;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 21ch;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(60), blink .5s step-end infinite alternate;
+  animation: type2 2s steps(60), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
 }
