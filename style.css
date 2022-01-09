@@ -17,7 +17,7 @@ div.picture1 {
 	 background-position: center;
 	 background-repeat: no-repeat;
    background-size: contain;
-
+   box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
 }
 
 div.picture2 {
@@ -25,7 +25,7 @@ div.picture2 {
    height: 1800px;
    margin: 0;
    padding: 0;
-   background-color: black;
+   background-color: rgb(255, 255, 255);
    position: relative; 
    background-attachment: fixed;
 	 background-position: center;
@@ -108,7 +108,8 @@ div.picture7 {
   color: rgba(199, 194, 194, 0.904);
   background-color:#000000;
   width:100%;
-  height: auto;
+  height: 700px;
+  box-shadow: inset 0px 10px 10px rgba(0,0,0,0.5);
 }
 
 #div1 h1{
@@ -118,8 +119,8 @@ div.picture7 {
 #div1 p{
   font-size: 15px;
   text-align: left;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 #div2 {
@@ -321,10 +322,10 @@ h3 {
 
 #text2{
   position: relative;
-  color: #000000;
+  color: #ffffff;
   font-weight: 700;
   font-size: 60px;
-  background: #ffffff;
+  background: #000000;
   line-height: 70px;
   text-align: center;
   margin-left: 400px;
@@ -333,7 +334,7 @@ h3 {
 
 #text3{
   position: relative;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -824,13 +825,15 @@ aside p {
   }
 }
 
+/*-------------BrandLOGO--------------------*/
+
 span.logo {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  color: #1d475a;
+  color: #2f6e8b;
   font-size: 124px;
   letter-spacing: 8px;
   cursor: pointer;
@@ -845,8 +848,8 @@ span.logo::before {
     45deg,
     transparent 0,
     transparent 2px,
-    white 2px,
-    white 4px
+    rgb(0, 0, 0) 2px,
+    rgb(0, 0, 0) 4px
   );
   -webkit-background-clip: text;
   top: 0px;
@@ -863,8 +866,8 @@ span.logo::after {
     135deg,
     transparent 0,
     transparent 2px,
-    white 2px,
-    white 4px
+    rgb(0, 0, 0) 2px,
+    rgb(0, 0, 0) 4px
   );
   -webkit-background-clip: text;
   top: 0px;
@@ -881,6 +884,8 @@ span.logo:hover:after {
   top: -10px;
   left: -10px;
 } 
+
+/*----------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 
@@ -910,18 +915,18 @@ span.logo:hover:after {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 5px solid rgb(255, 255, 255);
+  border: 5px solid rgb(0, 0, 0);
   box-sizing: border-box;
   border-radius: 5px;
 }
 #button a:before{
-  color: rgb(255, 255, 255);
-  background: #000;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   transform: rotateY(0deg) translateZ(25px);
 }
 #button a:after{
-  color: #000;
-  background: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   transform: rotateX(90deg) translateZ(25px);
 }
 #button a:hover{
