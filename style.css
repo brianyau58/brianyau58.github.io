@@ -25,7 +25,7 @@ div.picture2 {
    height: 1800px;
    margin: 0;
    padding: 0;
-   background-image: url('./image/skwedBG.png');
+   background-color: black;
    position: relative; 
    background-attachment: fixed;
 	 background-position: center;
@@ -224,8 +224,8 @@ h3 {
   text-align: center;
   left: 0; 
   right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: 100px; 
+  margin-right: 100px; 
 }
 
 #p5 {
@@ -266,7 +266,7 @@ h3 {
 .caption {
   margin: 0;
   padding: 0;
-	position: absolute;
+	position: relative;
 	left: 0;
 	top: 50%;
 	text-align: center;
@@ -305,27 +305,25 @@ h3 {
 #text{
   position: relative;
   color: rgb(255, 255, 255);
-  text-align: left;
-  margin-left: 100px;
+  text-align: center;
 }
 
 #text2{
-  position: absolute;
+  position: relative;
   color: #000000;
   font-weight: 700;
   font-size: 60px;
   background: #ffffff;
   line-height: 70px;
-  margin-left: 100px;
-
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 #text3{
-  position: absolute;
+  position: relative;
   color: rgb(255, 255, 255);
-  margin-top: 70px;
-  text-align: left;
-  margin-left: 100px;
+  text-align: center;
 }
 
 #pdlogo {
@@ -814,3 +812,63 @@ aside p {
     border-color: tranparent;
   }
 }
+
+span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #1d475a;
+  font-size: 124px;
+  letter-spacing: 8px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+span::before {
+  content: "BrandLOGO";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+span::after {
+  content: "BrandLOGO";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+span:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+span:hover:after {
+  top: -10px;
+  left: -10px;
+} 
+
+
