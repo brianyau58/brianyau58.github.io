@@ -906,16 +906,27 @@ span.logo:hover:after {
   font-family: 'Poppins', sans-serif;
   
 }
-#button a:before,
-#button a:after{
+#button a:before{
   position: absolute;
-  content: "BUTTON";
+  content: "CLICK ME";
   height: 55px;
   width: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 5px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#button a:after{
+  position: absolute;
+  content: "SEE MORE";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #000000;
   box-sizing: border-box;
   border-radius: 5px;
 }
@@ -926,7 +937,7 @@ span.logo:hover:after {
 }
 #button a:after{
   color: rgb(255, 255, 255);
-  background: rgb(0, 0, 0);
+  background: #2F6E8B;
   transform: rotateX(90deg) translateZ(25px);
 }
 #button a:hover{
