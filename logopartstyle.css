@@ -5,8 +5,8 @@
   }
   
   :root {
-    --secondary-color: #ffffff;
-    --contrast-color: #7A2F8B;
+    --secondary-color: #2f6e8b;
+    --contrast-color: #ffffff;
   }
   .overlay {
     position: absolute;
@@ -126,7 +126,6 @@
   }
 
 
-  
   figure{
     margin: auto;
     width: 900px;
