@@ -973,7 +973,7 @@ aside p {
 span.logo {
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 20%;
   transform: translate(-50%, -50%);
   display: block;
   color: #2f6e8b;
