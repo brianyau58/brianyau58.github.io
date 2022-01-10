@@ -37,9 +37,11 @@
   
   .container_content {
    width: 50%;
+   position: relative;
   }
   
   .container_content_inner {
+    position: relative;
     width: 80%;
     margin-left: 80px;
   }
@@ -135,7 +137,7 @@
     height: 480px;
     perspective: 800px;
     top: 50%;
-    left: 50%;
+    left: 100%;
     transform: translate(-50%, -50%);
   }
   
@@ -150,9 +152,9 @@
   .img-wrapper{
     animation: float 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
     position: relative;
-    top: 0; right: 0;
     pointer-events: none;
     backface-visibility: hidden;
+    margin: 0 auto;
   }
 
   #p1{
@@ -160,9 +162,14 @@
     font-family: "Poppins", sans-serif;
     font-size: 17px;
     width: 500px;
-    right: 50px;
-    position: relative;
+    position: absolute;
     text-align: center;
+    margin: 0 auto;
+  }
+
+  .child{
+    position: relative;
+    width: 100%;
   }
 
   #arrow{
