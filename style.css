@@ -119,6 +119,7 @@ div.picture7 {
 }
 
 #div1 p{
+  position: relative;
   font-size: 15px;
   text-align: left;
   margin-left: 500px;
