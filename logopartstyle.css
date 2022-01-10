@@ -147,6 +147,9 @@
     transition-delay: 100ms;
     pointer-events: none;
     width: 150%;
+    top: 50%;
+    left: 70%;
+
   }
   
   .img-wrapper{
@@ -168,7 +171,15 @@
     justify-content: center;
   }
 
-
+  #h2{
+    color: black;
+    font-family: "Poppins", sans-serif;;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 
   #arrow{
     top: 50px;
