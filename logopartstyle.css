@@ -130,13 +130,12 @@
 
   
   .wrapper{
-    position: relative;
+    position: absolute;
     width: 280px;
     height: 480px;
     perspective: 800px;
-    margin-bottom: 30%;
+    margin-top: 80px;
     margin-left: 90%;
-
   }
   
   
