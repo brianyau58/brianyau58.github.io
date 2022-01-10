@@ -241,40 +241,7 @@ h3 {
   margin-right: 100px; 
 }
 
-#p5 {
-  font-size: 17px;
-  color: rgba(199, 194, 194, 0.904);
-  text-align: center;
-  margin-left: 400px;
-  margin-right: 400px;
-}
 
-#p6 {
-  font-size: 17px;
-  color: rgba(199, 194, 194, 0.904);
-  text-align: center;
-  padding:10px 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-#p7 {
-  font-size: 100px;
-  color: rgba(199, 194, 194, 0.904);
-  text-align: center;
-  padding:10px 10px;
-  margin: 0;
-  padding: 0;
-}
-
-#p8 {
-  font-size: 100px;
-  color: rgba(0, 0, 0, 0.904);
-  text-align: center;
-  padding:10px 10px;
-  margin: 0;
-  padding: 0;
-}
 
 .caption {
   margin: 0;
