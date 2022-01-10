@@ -5,72 +5,98 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- jQuery.js v1.11.1 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/vendors/jquery.easings.min.jss"></script>
+
+  <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/vendors/scrolloverflow.min.js"></script>
+
+  <!-- fullPage.js v2.9.5 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"></script>
 </head>
 
 <body>
-  <div class="wrapper">
 
-    <div class="css-typing">
-      <p>
-        Welcome to my Portfolio!
-      </p>
-      <p>
-        Scroll down for more.
-      </p>
-      <div class="mouse_scroll">
-        <div class="mouse">
-          <div class="wheel"></div>
+  
+
+  <div id="example">
+  	<div class="section">
+      <div class="wrapper">
+        <div class="css-typing">
+          <p>
+            Welcome to my Portfolio!
+          </p>
+          <p>
+            Scroll down for more.
+          </p>
+          <div class="mouse_scroll">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <div>
+              <span class="m_scroll_arrows unu"></span>
+              <span class="m_scroll_arrows doi"></span>
+              <span class="m_scroll_arrows trei"></span>
+            </div>
+          </div>
         </div>
-        <div>
-          <span class="m_scroll_arrows unu"></span>
-          <span class="m_scroll_arrows doi"></span>
-          <span class="m_scroll_arrows trei"></span>
+      </div>
+    </div>
+  	<div class="section"> <div class="picture1"></div></div>
+  	<div class="section">
+      <div id="div1">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1>About Me</h1>
+        <br><br><br>
+        <p>I am always interested in multimedia, something like graphic design or animation. As I think they are a
+          great medium to express someone's thoughts. I can combine different elements of media like color, image, video,
+          sound to deliver messages, but not just use words. It is way more interesting and able to give a strong impression
+          to the target audience if we use these different elements wisely.
+          <br>
+          <br>
+          In this Portfolio, some of my works will be displayed. They included logo re-design, some poster ideas, and
+          videos. There are all from different aspects of media and I would like to continue to explore more about the
+          elements of media.
+        </p>
+      </div>
+    </div>
+  	<div class="section">
+        <span class="logo">Brand<span style="color: #7A2F8B;">LOGO</span></span>
+          <div>
+            <div class="space"></div>
+            <h3 id="text" style="color: rgb(0, 0, 0);">A logo is the</h3>
+          </div><br>
+          <div>
+            <p id="text2">Representative</p>
+          </div>
+          <div><br>
+            <h3 id="text3"> of a brand.</h3>
+          </div>
+          <div class="space3"></div>
+          <span id="button"><a href="logopart.html"></a></span>
         </div>
-    </div>
-    </div>
-
-  </div>
-  <div class="picture1"></div>
-
-
-
-  <div id="div1">
-    <br><br><br><br><br><br><br>
-    
-    
-    <h1>About Me</h1>
-    <br><br><br>
-    <p>I am always interested in multimedia, something like graphic design or animation. As I think they are a
-      great medium to express someone's thoughts. I can combine different elements of media like color, image, video,
-      sound to deliver messages, but not just use words. It is way more interesting and able to give a strong impression
-      to the target audience if we use these different elements wisely.
-      <br>
-      <br>
-      In this Portfolio, some of my works will be displayed. They included logo re-design, some poster ideas, and
-      videos. There are all from different aspects of media and I would like to continue to explore more about the
-      elements of media.
-    </p>
-  </div>
-
-
-  <div class="picture2">
-    <span class="logo">Brand<span style="color: #7A2F8B;">LOGO</span></span>
-    <br>
-    <div class="caption">
-      <div class="space3"></div>
-      <div>
-        <h3  id="text" style="color: rgb(0, 0, 0);">A logo is the</h3><br>
       </div>
-      <div>
-        <p id="text2">Representative</p>
-      </div><br>
-      <div>
-        <h3 id="text3"> of a brand.</h3>
-      </div>
-      <br><br><br>
-      <span id="button"><a href="logopart.html"></a></span>
     </div>
-  </div>
+
+  <script>
+  	$( "#example" ).fullpage({
+  		// 參數設定[註1]
+  		navigation: true, // 顯示導行列
+  		navigationPosition: "right" // 導行列位置
+  	});
+  </script>
+ 
+
+
+
+  
+
+
+ 
 
   <div class="picture3"></div>
   <div id="div3">
@@ -152,7 +178,7 @@
           <div class="card__content">
             <div>
               <h2>Poster Three</h2><br>
-              
+
               <p>This is a poster I made when I was learning the color function of Photoshop.</p><br>
 
               <p>This photo was taken in Japan when I had a trip back then. When I am exploring the color
@@ -188,19 +214,19 @@
     <section>
       <br><br><br>
       <h2 style=" font-weight: bold; text-align: left;">Collective Memory of Hong Kong</h2><br>
-      
-      <p style="text-align: left;">The idea of the video is to show different collective memory of 
+
+      <p style="text-align: left;">The idea of the video is to show different collective memory of
         Hong Kong people. There were many places that were used to be
-         iconic or meaningful for Hong Kong people. However, some of them
-         are removed or replaced because of the development of the city. 
-        It will be great if I combine some of them together into a video to 
+        iconic or meaningful for Hong Kong people. However, some of them
+        are removed or replaced because of the development of the city.
+        It will be great if I combine some of them together into a video to
         reminisce about these places.</p>
-        <br><br><br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3nX0smBSc2A" title="YouTube video player"
+      <br><br><br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/3nX0smBSc2A" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </section>
-</div>
+  </div>
 
 
 
