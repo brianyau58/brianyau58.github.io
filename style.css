@@ -11,6 +11,22 @@ html {
   scroll-behavior: smooth;
 }
 
+.s2{
+  background-color: black;
+}
+
+.s3{
+  background-color: rgb(255, 255, 255);
+}
+
+#slide1{
+  background-color: rgb(255, 255, 255);
+}
+
+#slide2{
+  background-color: rgb(0, 0, 0);
+}
+
 div.picture1 {
    width:100%; 
    height: 100%;
@@ -980,9 +996,8 @@ aside p {
 
 span.logo {
   position: absolute;
-  left: 50%;
+  left: 7%;
   top: 20%;
-  transform: translate(-50%, -50%);
   display: block;
   color: #2f6e8b;
   font-size: 124px;
@@ -990,6 +1005,8 @@ span.logo {
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
 }
+
+
 
 span.logo::before {
   content: "BrandLOGO";
@@ -1008,6 +1025,8 @@ span.logo::before {
   z-index: -1;
   transition: 1s;
 }
+
+
 
 span.logo::after {
   content: "BrandLOGO";
@@ -1031,7 +1050,68 @@ span.logo:hover:before {
   left: 10px;
 }
 
+
 span.logo:hover:after {
+  top: -10px;
+  left: -10px;
+} 
+
+
+
+#logo2 {
+  position: absolute;
+  left: 32%;
+  top: 20%;
+  display: block;
+  color: #2f6e8b;
+  font-size: 124px;
+  letter-spacing: 8px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+#logo2::before {
+  content: "PosterDESIGN";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    rgb(255, 255, 255) 2px,
+    rgb(255, 255, 255) 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+
+#logo2::after {
+  content: "PosterDESIGN";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    rgb(255, 255, 255) 2px,
+    rgb(255, 255, 255) 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+#logo2:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+#logo2:hover:after {
   top: -10px;
   left: -10px;
 } 
