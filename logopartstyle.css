@@ -162,15 +162,13 @@
     font-family: "Poppins", sans-serif;
     font-size: 17px;
     width: 500px;
-    position: absolute;
     text-align: center;
-    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
-  .child{
-    position: relative;
-    width: 100%;
-  }
+
 
   #arrow{
     top: 50px;
