@@ -30,6 +30,23 @@ html {
   background-color: rgb(0, 0, 0);
 }
 
+.fp-controlArrow.fp-prev {
+  left: 0 ;
+  border: none ;
+  width: 101px !important;
+  height: 101px !important;
+  background: url('./image/arrowLeft.png') no-repeat !important;
+  cursor: pointer;
+}
+.fp-controlArrow.fp-next {
+  right: 0;
+  border: none;
+  width: 101px;
+  height: 101px;
+  background: url('./image/arrowRight.png') no-repeat;
+  cursor: pointer;
+}
+
 div.picture1 {
    width:100%; 
    height: 100%;
@@ -746,8 +763,8 @@ aside p {
 }
 .css-typing p:nth-child(1) {
   width: 24ch;
-  -webkit-animation:type2 2s steps(60), blink .5s step-end infinite alternate;
-  animation: type2 2s steps(60), blink .5s step-end infinite alternate;
+  -webkit-animation:type2 1s steps(60), blink .5s step-end infinite alternate;
+  animation: type2 1s steps(60), blink .5s step-end infinite alternate;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -755,10 +772,10 @@ aside p {
 .css-typing p:nth-child(2) {
   width: 21ch;
   opacity: 0;
-  -webkit-animation: type2 2s steps(60), blink .5s step-end infinite alternate;
-  animation: type2 2s steps(60), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  -webkit-animation: type2 1s steps(60), blink .5s step-end infinite alternate;
+  animation: type2 1s steps(60), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -1075,10 +1092,8 @@ span.logo:hover:after {
 
 
 #logo2 {
-  position: absolute;
-  left: 32%;
-  top: 20%;
-  display: block;
+  position: relative;
+  text-align: center;
   color: #2f6e8b;
   font-size: 124px;
   letter-spacing: 8px;
@@ -1089,6 +1104,7 @@ span.logo:hover:after {
 #logo2::before {
   content: "PosterDESIGN";
   position: absolute;
+  text-align: center;
   color: transparent;
   background-image: repeating-linear-gradient(
     45deg,
@@ -1108,6 +1124,7 @@ span.logo:hover:after {
 #logo2::after {
   content: "PosterDESIGN";
   position: absolute;
+  text-align: center;
   color: transparent;
   background-image: repeating-linear-gradient(
     135deg,
