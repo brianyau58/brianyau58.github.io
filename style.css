@@ -1149,11 +1149,11 @@ span.logo:hover:after {
   left: -10px;
 } 
 
-/*----------------------------------------------*/
+/*----------------Button1------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 
-#button{
+#button, #button2{
   position: relative;
   display: inline-flex;
   width: 180px;
@@ -1161,7 +1161,7 @@ span.logo:hover:after {
   margin: 0 15px;
   perspective: 1000px;
 }
-#button a{
+#button a, #button2 a{
   font-size: 19px;
   letter-spacing: 1px;
   transform-style: preserve-3d;
@@ -1201,14 +1201,50 @@ span.logo:hover:after {
 }
 #button a:after{
   color: rgb(255, 255, 255);
-  background: #2F6E8B;
+  background: #7A2F8B;
   transform: rotateX(90deg) translateZ(25px);
 }
 #button a:hover{
   transform: translateZ(-25px) rotateX(-90deg);
 }
+/*----------------Button2------------------------------*/
+#button2 a:before{
+  position: absolute;
+  content: "CLICK ME";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
 
+#button2 a:after{
+  position: absolute;
+  content: "SEE MORE";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
 
-
-
+#button2 a:before{
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  transform: rotateY(0deg) translateZ(25px);
+}
+#button2 a:after{
+  color: rgb(0, 0, 0);
+  background: #e0a72c;
+  transform: rotateX(90deg) translateZ(25px);
+}
+#button2 a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
 
