@@ -12,7 +12,9 @@ html {
 }
 
 .s2{
-  background-color: black;
+  background-image: url('./image/Web_coverV2.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .s3{
