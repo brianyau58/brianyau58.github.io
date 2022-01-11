@@ -17,6 +17,7 @@ html {
 
 .s3{
   background-color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 #slide1{
@@ -1008,15 +1009,13 @@ aside p {
 /*-------------BrandLOGO--------------------*/
 
 span.logo {
-  position: absolute;
-  left: 7%;
-  top: 20%;
-  display: block;
+  position: relative;
   color: #2f6e8b;
   font-size: 124px;
   letter-spacing: 8px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 
@@ -1024,6 +1023,7 @@ span.logo {
 span.logo::before {
   content: "BrandLOGO";
   position: absolute;
+  text-align: center;
   color: transparent;
   background-image: repeating-linear-gradient(
     45deg,
@@ -1044,6 +1044,7 @@ span.logo::before {
 span.logo::after {
   content: "BrandLOGO";
   position: absolute;
+  text-align: center;
   color: transparent;
   background-image: repeating-linear-gradient(
     135deg,
