@@ -81,6 +81,13 @@ p {
   left: 145px;
 }
 
+#arrow{
+  top: 50px;
+  left: 20px;
+  position:absolute;
+  color: rgb(0, 0, 0);
+}
+
 .container {
   position: absolute;
   top: 30%;
@@ -102,7 +109,28 @@ p {
   }
 }
 
-.p1{
-  position: relative;
+.s2{
   text-align: center;
+}
+
+#p1{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70em;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+
+#videoIcon{
+  font-size: 70px;
+  animation: float 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
+  }
+  @keyframes float{
+    0%{
+      transform: translateZ(20px);
+    }
+    100%{
+      transform: translateY(-21px) translateX(-13px) translateZ(30px);
+    }
 }
