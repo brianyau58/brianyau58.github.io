@@ -48,7 +48,7 @@
       font-size: 40px;
       color: var(--contrast-color);
       margin-bottom: 20px;
-      transform: translateY(100px);
+      transform: translateY(400px);
       animation: slideUp .8s ease forwards .5s;
   }
   
