@@ -37,7 +37,6 @@ body {
   height: 50px;
   overflow: hidden;
   position: relative;
-  
 }
 
 p {
@@ -45,7 +44,6 @@ p {
   height: 50px;
   line-height: 50px;
   transition: all 0.5s ease-in-out;
-  
 }
 
 .perspective-line:nth-child(odd) {
@@ -84,6 +82,12 @@ p {
 }
 
 .container {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
   margin-bottom: 20px;
   transition: all .8s ease;
   transform: translateY(300px);
@@ -96,4 +100,9 @@ p {
   100% {
     transform: translateY(0px);
   }
+}
+
+.p1{
+  position: relative;
+  text-align: center;
 }
