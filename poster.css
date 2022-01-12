@@ -5,7 +5,7 @@
   }
   
   :root {
-    --secondary-color: #141414;
+    --secondary-color: #1a1a1a;
     --contrast-color: #e0a72c;
   }
   .overlay {
@@ -93,6 +93,10 @@
     color: rgb(255, 255, 255); 
 }
 
+table, th, td {
+  border: 10px solid transparent;
+}
+
 .s1{
     text-align: center;
     display: flex;
@@ -111,4 +115,27 @@
       transform: translateY(-21px) translateX(-13px) translateZ(30px);
     }
   }
+
+  .img2{
+    width: 20%;
+    animation: float 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
+  }
+  @keyframes float{
+    0%{
+      transform: translateZ(20px);
+    }
+    100%{
+      transform: translateY(-21px) translateX(-13px) translateZ(30px);
+    }
+  }
   
+  #p1{
+    color: rgb(212, 212, 212);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+
+  }
