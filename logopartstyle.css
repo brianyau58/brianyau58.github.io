@@ -150,7 +150,7 @@
     top: 50px;
     left: 20px;
     position:absolute;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   @keyframes float{
