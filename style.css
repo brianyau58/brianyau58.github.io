@@ -1046,7 +1046,7 @@ span.logo::before {
     transparent 0,
     transparent 2px,
     rgb(0, 0, 0) 2px,
-    #be17e4 4px
+    #000000 4px
   );
   -webkit-background-clip: text;
   top: 0px;
@@ -1164,7 +1164,7 @@ span.logo:hover:after {
     transparent 0,
     transparent 2px,
     rgb(0, 0, 0) 2px,
-    #408B2F 4px
+    #000000 4px
   );
   -webkit-background-clip: text;
   top: 0px;
