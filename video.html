@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Video</title>
-    <link rel="stylesheet" type="text/css" href="./css/video.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <!-- jQuery.js v1.11.1 -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Video</title>
+  <link rel="stylesheet" type="text/css" href="./css/video.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- jQuery.js v1.11.1 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
   <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
@@ -20,34 +24,35 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"></script>
 </head>
+
 <body>
   <div id="example">
     <div class="section">
       <span class="material-icons" id="arrow" onclick="history.back()">arrow_back_ios</span>
       <div class="container">
         <div class="perspective-text">
-            <div class="perspective-line">
-              <p></p>
-              <p>Collective</p>
-            </div>
-            <div class="perspective-line">
-              <p>Collective</p>
-              <p>Memory</p>
-            </div>
-            <div class="perspective-line">
-              <p>Memory</p>
-              <p>OF</p>
-            </div>
-            <div class="perspective-line">
-              <p>OF</p>
-              <p>Hong Kong</p>
-            </div>
-            <div class="perspective-line">
-              <p>Hong Kong</p>
-              <p></p>
-            </div>
-          </div> 
-    </div>
+          <div class="perspective-line">
+            <p></p>
+            <p>Collective</p>
+          </div>
+          <div class="perspective-line">
+            <p>Collective</p>
+            <p>Memory</p>
+          </div>
+          <div class="perspective-line">
+            <p>Memory</p>
+            <p>OF</p>
+          </div>
+          <div class="perspective-line">
+            <p>OF</p>
+            <p>Hong Kong</p>
+          </div>
+          <div class="perspective-line">
+            <p>Hong Kong</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="section s2">
       <span class="material-icons" id="videoIcon">ondemand_video</span>
@@ -55,24 +60,58 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/3nX0smBSc2A" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-        <br><br><br><br>
-        <p id="p1">The idea of the video is to show different collective memory of
-          Hong Kong people. There were many places that were used to be
-          iconic or meaningful for Hong Kong people. However, some of them
-          are removed or replaced because of the development of the city.
-          It will be great if I combine some of them together into a video to
-          reminisce about these places.</p>
+      <br><br><br><br>
+      <p id="p1">The idea of the video is to show different collective memory of
+        Hong Kong people. There were many places that were used to be
+        iconic or meaningful for Hong Kong people. However, some of them
+        are removed or replaced because of the development of the city.
+        It will be great if I combine some of them together into a video to
+        reminisce about these places.</p>
     </div>
-    <div class="section">Some section</div>
-    <div class="section">Some section</div>
+    <div class="section">
+      <div class="container">
+        <div class="perspective-text">
+          <div class="perspective-line2">
+            <p></p>
+            <p>The First</p>
+          </div>
+          <div class="perspective-line2">
+            <p>The First</p>
+            <p>Animation</p>
+          </div>
+          <div class="perspective-line2">
+            <p>Animation</p>
+            <p>OF</p>
+          </div>
+          <div class="perspective-line2">
+            <p>OF</p>
+            <p>Mine</p>
+          </div>
+          <div class="perspective-line2">
+            <p>Mine</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section s2">
+      <span class="material-icons" id="videoIcon">movie</span>
+      <br><br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/q8xH7ANsh-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br><br><br><br>
+      <p id="p1">I used 3DS MAX to create my first animation. I first create the model in the scence, then used the frame function to create this simple animation.
+        I also retrieve some voice lines from the episodes of Doraemon to fit the scence. 
+      </p>
+    </div>
   </div>
-   
-    <script>
-      $("#example").fullpage({
-        navigation: true,
-        navigationPosition: "left",
-        autoScrolling: true,
-      });
-    </script>
+
+  <script>
+    $("#example").fullpage({
+      navigation: true,
+      navigationPosition: "left",
+      autoScrolling: true,
+    });
+  </script>
 </body>
+
 </html>

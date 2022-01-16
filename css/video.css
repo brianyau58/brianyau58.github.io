@@ -64,22 +64,65 @@ p {
 
 .perspective-line:nth-child(2) {
   left: 58px;
-  background: #f07e6e;
+  background: #6D3D38;
 }
 
 .perspective-line:nth-child(3) {
   left: 87px;
-  background: #84cdfa;
+  background: #E9DAC4;
 }
 
 .perspective-line:nth-child(4) {
   left: 116px;
-  background: #5ad1cd;
+  background: #E0AC8E;
 }
 
 .perspective-line:nth-child(5) {
   left: 145px;
 }
+
+
+
+.perspective-line2 {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.perspective-line2:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective-line2:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.337);
+}
+
+
+.perspective-line2:nth-child(1) {
+  left: 29px;
+}
+
+.perspective-line2:nth-child(2) {
+  left: 58px;
+  background: #7493cc;
+}
+
+.perspective-line2:nth-child(3) {
+  left: 87px;
+  background: #c2433a;
+}
+
+.perspective-line2:nth-child(4) {
+  left: 116px;
+  background: #5a70d1;
+}
+
+.perspective-line2:nth-child(5) {
+  left: 145px;
+}
+
+
 
 #arrow{
   top: 50px;
@@ -119,7 +162,7 @@ p {
   margin-right: auto;
   width: 70em;
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 #videoIcon{
