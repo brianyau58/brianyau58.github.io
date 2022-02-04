@@ -128,6 +128,19 @@ table, th, td {
       transform: translateY(-21px) translateX(-13px) translateZ(30px);
     }
   }
+
+  .img3{
+    width: 40%;
+    animation: float 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
+  }
+  @keyframes float{
+    0%{
+      transform: translateZ(20px);
+    }
+    100%{
+      transform: translateY(-21px) translateX(-13px) translateZ(30px);
+    }
+  }
   
   #p1{
     color: rgb(212, 212, 212);
